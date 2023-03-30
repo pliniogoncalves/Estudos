@@ -1,0 +1,3 @@
+/home/plinio/Documentos/IREDE/Estudos/Forca Clion/cmake-build-debug/CMakeFiles/Forca_Clion.dir
+/home/plinio/Documentos/IREDE/Estudos/Forca Clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/plinio/Documentos/IREDE/Estudos/Forca Clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

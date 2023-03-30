@@ -8,18 +8,18 @@
 
 using namespace std;
 
-#include "letra_existe.cpp"
-#include "nao_acertou.cpp"
-#include "nao_enforcou.cpp"
-#include "imprime_cabecalho.cpp"
-#include "imprime_erros.cpp"
-#include "imprime_palavra.cpp"
-#include "chuta.cpp"
-#include "ler_arquivo.cpp"
-#include "sorteia_palavra.cpp"
-#include "salva_arquivo.cpp"
-#include "adciona_palavra.cpp"
-#include "resultado.cpp"
+#include "letra_existe.hpp"
+#include "nao_acertou.hpp"
+#include "nao_enforcou.hpp"
+#include "imprime_cabecalho.hpp"
+#include "imprime_erros.hpp"
+#include "imprime_palavra.hpp"
+#include "chuta.hpp"
+#include "ler_arquivo.hpp"
+#include "sorteia_palavra.hpp"
+#include "salva_arquivo.hpp"
+#include "adciona_palavra.hpp"
+#include "resultado.hpp"
 
 string palavra_secreta;
 map<char, bool> chutou;
