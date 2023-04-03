@@ -55,12 +55,6 @@ build CMakeFiles/Forca_Clion.dir/forca.cpp.o: CXX_COMPILER__Forca_Clion_Debug /h
   OBJECT_DIR = CMakeFiles/Forca_Clion.dir
   OBJECT_FILE_DIR = CMakeFiles/Forca_Clion.dir
 
-build CMakeFiles/Forca_Clion.dir/imprime_cabecalho.cpp.o: CXX_COMPILER__Forca_Clion_Debug /home/plinio/Documentos/IREDE/Estudos/Forca$ Clion/imprime_cabecalho.cpp || cmake_object_order_depends_target_Forca_Clion
-  DEP_FILE = CMakeFiles/Forca_Clion.dir/imprime_cabecalho.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
-  OBJECT_DIR = CMakeFiles/Forca_Clion.dir
-  OBJECT_FILE_DIR = CMakeFiles/Forca_Clion.dir
-
 build CMakeFiles/Forca_Clion.dir/ler_arquivo.cpp.o: CXX_COMPILER__Forca_Clion_Debug /home/plinio/Documentos/IREDE/Estudos/Forca$ Clion/ler_arquivo.cpp || cmake_object_order_depends_target_Forca_Clion
   DEP_FILE = CMakeFiles/Forca_Clion.dir/ler_arquivo.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
@@ -97,12 +91,6 @@ build CMakeFiles/Forca_Clion.dir/nao_acertou.cpp.o: CXX_COMPILER__Forca_Clion_De
   OBJECT_DIR = CMakeFiles/Forca_Clion.dir
   OBJECT_FILE_DIR = CMakeFiles/Forca_Clion.dir
 
-build CMakeFiles/Forca_Clion.dir/nao_enforcou.cpp.o: CXX_COMPILER__Forca_Clion_Debug /home/plinio/Documentos/IREDE/Estudos/Forca$ Clion/nao_enforcou.cpp || cmake_object_order_depends_target_Forca_Clion
-  DEP_FILE = CMakeFiles/Forca_Clion.dir/nao_enforcou.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
-  OBJECT_DIR = CMakeFiles/Forca_Clion.dir
-  OBJECT_FILE_DIR = CMakeFiles/Forca_Clion.dir
-
 build CMakeFiles/Forca_Clion.dir/resultado.cpp.o: CXX_COMPILER__Forca_Clion_Debug /home/plinio/Documentos/IREDE/Estudos/Forca$ Clion/resultado.cpp || cmake_object_order_depends_target_Forca_Clion
   DEP_FILE = CMakeFiles/Forca_Clion.dir/resultado.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
@@ -135,7 +123,7 @@ build CMakeFiles/Forca_Clion.dir/salva_arquivo.cpp.o: CXX_COMPILER__Forca_Clion_
 #############################################
 # Link the executable Forca_Clion
 
-build Forca_Clion: CXX_EXECUTABLE_LINKER__Forca_Clion_Debug CMakeFiles/Forca_Clion.dir/forca.cpp.o CMakeFiles/Forca_Clion.dir/imprime_cabecalho.cpp.o CMakeFiles/Forca_Clion.dir/ler_arquivo.cpp.o CMakeFiles/Forca_Clion.dir/sorteia_palavra.cpp.o CMakeFiles/Forca_Clion.dir/imprime_erros.cpp.o CMakeFiles/Forca_Clion.dir/imprime_palavra.cpp.o CMakeFiles/Forca_Clion.dir/chuta.cpp.o CMakeFiles/Forca_Clion.dir/nao_acertou.cpp.o CMakeFiles/Forca_Clion.dir/nao_enforcou.cpp.o CMakeFiles/Forca_Clion.dir/resultado.cpp.o CMakeFiles/Forca_Clion.dir/letra_existe.cpp.o CMakeFiles/Forca_Clion.dir/adciona_palavra.cpp.o CMakeFiles/Forca_Clion.dir/salva_arquivo.cpp.o
+build Forca_Clion: CXX_EXECUTABLE_LINKER__Forca_Clion_Debug CMakeFiles/Forca_Clion.dir/forca.cpp.o CMakeFiles/Forca_Clion.dir/ler_arquivo.cpp.o CMakeFiles/Forca_Clion.dir/sorteia_palavra.cpp.o CMakeFiles/Forca_Clion.dir/imprime_erros.cpp.o CMakeFiles/Forca_Clion.dir/imprime_palavra.cpp.o CMakeFiles/Forca_Clion.dir/chuta.cpp.o CMakeFiles/Forca_Clion.dir/nao_acertou.cpp.o CMakeFiles/Forca_Clion.dir/resultado.cpp.o CMakeFiles/Forca_Clion.dir/letra_existe.cpp.o CMakeFiles/Forca_Clion.dir/adciona_palavra.cpp.o CMakeFiles/Forca_Clion.dir/salva_arquivo.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Forca_Clion.dir
   POST_BUILD = :

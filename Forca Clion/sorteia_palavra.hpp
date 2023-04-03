@@ -1,3 +1,4 @@
 #pragma once
+#include <string>
 
-void sorteia_palavra();
+std::string sorteia_palavra();

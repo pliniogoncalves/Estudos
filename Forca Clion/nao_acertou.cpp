@@ -1,11 +1,7 @@
-#include <string>
-#include <map>
-#include <vector>
+#include "nao_acertou.hpp"
 
-extern std::map<char, bool> chutou;
-extern std::string palavra_secreta;
 
-bool nao_acertou(){
+bool nao_acertou(std::string palavra_secreta, std::map<char, bool> chutou){
     
     for(char letra: palavra_secreta){
         if(!chutou[letra]){

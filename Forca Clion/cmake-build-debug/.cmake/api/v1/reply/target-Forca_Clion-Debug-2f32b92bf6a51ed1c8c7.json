@@ -62,9 +62,7 @@
 				7,
 				8,
 				9,
-				10,
-				11,
-				12
+				10
 			]
 		}
 	],
@@ -107,9 +105,7 @@
 				7,
 				8,
 				9,
-				10,
-				11,
-				12
+				10
 			]
 		}
 	],
@@ -119,12 +115,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "forca.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "imprime_cabecalho.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -161,12 +151,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "nao_acertou.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "nao_enforcou.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
