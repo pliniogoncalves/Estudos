@@ -11,9 +11,9 @@
 
 using namespace std;
 
-string palavra_secreta;
-map<char, bool> chutou;
-vector<char> chutes_errados;
+static string palavra_secreta;
+static map<char, bool> chutou;
+static vector<char> chutes_errados;
 
 int main(){
     
@@ -27,7 +27,7 @@ int main(){
 
         imprime_palavra(palavra_secreta, chutou);
 
-        chuta(&chutou, &chutes_errados);
+        chuta(chutou, chutes_errados);
     }
 
     resultado(palavra_secreta, chutou);
