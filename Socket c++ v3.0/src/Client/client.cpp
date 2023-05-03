@@ -11,7 +11,9 @@ Client::Client(const std::string& server_address, int server_port) :
         sock_(-1),
         server_address_(server_address),
         server_port_(server_port)
-{}
+{
+
+}
 
 bool Client::Connect() {
     // Creating the socket
