@@ -109,25 +109,25 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src"
+					"path" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/include"
+					"path" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock"
-				},
-				{
-					"backtrace" : 9,
-					"isSystem" : true,
-					"path" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include"
+					"path" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest"
+					"path" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest"
 				}
 			],
 			"language" : "CXX",

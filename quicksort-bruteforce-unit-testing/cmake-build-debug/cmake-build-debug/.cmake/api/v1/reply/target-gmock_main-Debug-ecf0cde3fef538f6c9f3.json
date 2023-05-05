@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/libgtest_main.a"
+			"path" : "lib/libgmock_main.a"
 		}
 	],
 	"backtrace" : 3,
@@ -23,7 +23,7 @@
 		"files" : 
 		[
 			"lib/googletest/googletest/cmake/internal_utils.cmake",
-			"lib/googletest/googletest/CMakeLists.txt",
+			"lib/googletest/googlemock/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -34,7 +34,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 144,
+				"line" : 100,
 				"parent" : 0
 			},
 			{
@@ -52,7 +52,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 166,
+				"line" : 120,
 				"parent" : 0
 			},
 			{
@@ -64,7 +64,7 @@
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 161,
+				"line" : 101,
 				"parent" : 0
 			},
 			{
@@ -79,7 +79,7 @@
 			{
 				"command" : 6,
 				"file" : 1,
-				"line" : 116,
+				"line" : 75,
 				"parent" : 0
 			},
 			{
@@ -109,17 +109,27 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src"
+					"path" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include"
+					"path" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/include"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest"
+					"path" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest"
 				}
 			],
 			"language" : "CXX",
@@ -141,10 +151,14 @@
 	[
 		{
 			"backtrace" : 6,
+			"id" : "gmock::@7712283c01f504ef6d93"
+		},
+		{
+			"backtrace" : 6,
 			"id" : "gtest::@7e3677ed2a4dc8c8eb88"
 		}
 	],
-	"id" : "gtest_main::@7e3677ed2a4dc8c8eb88",
+	"id" : "gmock_main::@7712283c01f504ef6d93",
 	"install" : 
 	{
 		"destinations" : 
@@ -159,12 +173,12 @@
 			"path" : "/usr/local"
 		}
 	},
-	"name" : "gtest_main",
-	"nameOnDisk" : "libgtest_main.a",
+	"name" : "gmock_main",
+	"nameOnDisk" : "libgmock_main.a",
 	"paths" : 
 	{
-		"build" : "lib/googletest/googletest",
-		"source" : "lib/googletest/googletest"
+		"build" : "lib/googletest/googlemock",
+		"source" : "lib/googletest/googlemock"
 	},
 	"sourceGroups" : 
 	[
@@ -181,7 +195,7 @@
 		{
 			"backtrace" : 3,
 			"compileGroupIndex" : 0,
-			"path" : "lib/googletest/googletest/src/gtest_main.cc",
+			"path" : "lib/googletest/googlemock/src/gmock_main.cc",
 			"sourceGroupIndex" : 0
 		}
 	],

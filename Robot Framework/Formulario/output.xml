@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.0rc1 on linux)" generated="20230505 11:47:39.624" rpa="false" schemaversion="3">
+<suite id="s1" name="Struct" source="/home/plinio/Documentos/IREDE/Estudos/Robot Framework/Formulario/src/struct.robot">
+<test id="s1-t1" name="scenario 1: Test fill out form" line="32">
+<kw name="open browser and access the website">
+<kw name="Open Browser">
+<arg>https://itera-qa.azurewebsites.net/home/automation</arg>
+<arg>${BROWSER}</arg>
+<msg timestamp="20230505 11:47:39.633" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20230505 11:47:39.633" endtime="20230505 11:47:39.633"/>
+</kw>
+<status status="FAIL" starttime="20230505 11:47:39.632" endtime="20230505 11:47:39.633"/>
+</kw>
+<kw name="fill in fields">
+<status status="NOT RUN" starttime="20230505 11:47:39.633" endtime="20230505 11:47:39.633"/>
+</kw>
+<kw name="click submit">
+<status status="NOT RUN" starttime="20230505 11:47:39.633" endtime="20230505 11:47:39.633"/>
+</kw>
+<kw name="close website">
+<status status="NOT RUN" starttime="20230505 11:47:39.633" endtime="20230505 11:47:39.633"/>
+</kw>
+<status status="FAIL" starttime="20230505 11:47:39.632" endtime="20230505 11:47:39.633">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" starttime="20230505 11:47:39.625" endtime="20230505 11:47:39.634"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Struct">Struct</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230505 11:47:39.632" level="ERROR">Error in file '/home/plinio/Documentos/IREDE/Estudos/Robot Framework/Formulario/src/struct.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /home/plinio/.local/bin
+  /usr/lib/python311.zip
+  /usr/lib/python3.11
+  /usr/lib/python3.11/lib-dynload
+  /home/plinio/.local/lib/python3.11/site-packages
+  /usr/local/lib/python3.11/dist-packages
+  /usr/lib/python3/dist-packages</msg>
+</errors>
+</robot>

@@ -1,5 +1,5 @@
 # ninja log v5
-1	228	1682344708904965050	src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/main.cpp.o	4948ad7b687c4a24
+2	239	1682347933259250965	src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/main.cpp.o	4948ad7b687c4a24
 48	65	1682344652604207087	lib/libgmock.a	aef4b3e9f84d5304
 0	440	1682344933374082770	tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/BruteForceTest.cpp.o	bc1691cddc32d2eb
 2	48	1682344652584206817	lib/libgtest.a	4e6c8d6969fe0660
@@ -16,14 +16,11 @@
 1	19	1682345481518865586	src/libquicksort-bruteforce-unit-testing_lib.a	3c13844954d0455f
 1	403	1682344807746287820	tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/somaTest.cpp.o	c505c463d36057d
 177	2697	1682344369000322426	lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	96c06a99313efde9
-228	270	1682344708944965588	src/quicksort-bruteforce-unit-testing_run	5dacc7fb532f722b
+239	274	1682347933291251611	src/quicksort-bruteforce-unit-testing_run	99347cd5148f1e79
 1	233	1682345203571386598	src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/main.cpp.o	7e4d58015866cbd5
 1	410	1682345646714684067	tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/QuickSortTest.cpp.o	cd7eb81bb8853452
-1	92	1682344652628207411	src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/QuickSort.cpp.o	36a0af0b9ae03dd0
+2	113	1682347933131248380	src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/QuickSort.cpp.o	36a0af0b9ae03dd0
 410	495	1682345646798685921	tst/quicksort-bruteforce-unit-testing_tst	df0c2a7bc67d5991
 48	53	1682344652592206926	lib/libgtest_main.a	8f39d9c72123980
 2	25	1682344366324285110	src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/soma.cpp.o	f7151c27dd36081e
 118	1621	1682344367928307480	lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	9446f788fad492e
-2	113	1682347933131248380	src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/QuickSort.cpp.o	36a0af0b9ae03dd0
-2	239	1682347933259250965	src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/main.cpp.o	4948ad7b687c4a24
-239	274	1682347933291251611	src/quicksort-bruteforce-unit-testing_run	99347cd5148f1e79

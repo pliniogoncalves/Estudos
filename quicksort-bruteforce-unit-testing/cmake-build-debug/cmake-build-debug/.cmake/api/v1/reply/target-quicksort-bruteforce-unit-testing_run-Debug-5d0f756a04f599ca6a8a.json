@@ -1,9 +1,8 @@
 {
-	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "src/libquicksort-bruteforce-unit-testing_lib.a"
+			"path" : "src/quicksort-bruteforce-unit-testing_run"
 		}
 	],
 	"backtrace" : 1,
@@ -11,7 +10,7 @@
 	{
 		"commands" : 
 		[
-			"add_library",
+			"add_executable",
 			"include_directories"
 		],
 		"files" : 
@@ -27,7 +26,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
@@ -57,7 +56,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src"
+					"path" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src"
 				}
 			],
 			"language" : "CXX",
@@ -78,9 +77,24 @@
 			]
 		}
 	],
-	"id" : "quicksort-bruteforce-unit-testing_lib::@145eef247bfb46b6828c",
-	"name" : "quicksort-bruteforce-unit-testing_lib",
-	"nameOnDisk" : "libquicksort-bruteforce-unit-testing_lib.a",
+	"id" : "quicksort-bruteforce-unit-testing_run::@145eef247bfb46b6828c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "quicksort-bruteforce-unit-testing_run",
+	"nameOnDisk" : "quicksort-bruteforce-unit-testing_run",
 	"paths" : 
 	{
 		"build" : "src",
@@ -150,5 +164,5 @@
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "STATIC_LIBRARY"
+	"type" : "EXECUTABLE"
 }

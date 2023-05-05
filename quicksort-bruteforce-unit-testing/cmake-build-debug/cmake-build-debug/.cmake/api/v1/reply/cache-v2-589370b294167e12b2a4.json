@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug"
+			"value" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/234/bin/cmake/linux/x64/bin/cmake"
+			"value" : "/snap/clion/235/bin/cmake/linux/x64/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/234/bin/cmake/linux/x64/bin/cpack"
+			"value" : "/snap/clion/235/bin/cmake/linux/x64/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -151,7 +151,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/234/bin/cmake/linux/x64/bin/ctest"
+			"value" : "/snap/clion/235/bin/cmake/linux/x64/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -627,7 +627,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug"
+			"value" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -935,7 +935,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/snap/clion/234/bin/ninja/linux/x64/ninja"
+			"value" : "/snap/clion/235/bin/ninja/linux/x64/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1227,7 +1227,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25"
+			"value" : "/snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1475,7 +1475,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/bin/python3.10][cfound components: Interpreter ][v3.10.6()]"
+			"value" : "[/usr/bin/python3.11][cfound components: Interpreter ][v3.11.0()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
@@ -1535,7 +1535,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/bin/python3.10"
+			"value" : "/usr/bin/python3.11"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
@@ -1595,7 +1595,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/bin/python3.10"
+			"value" : "/usr/bin/python3.11"
 		},
 		{
 			"name" : "_Python_INTERPRETER_PROPERTIES",
@@ -1607,7 +1607,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/local/lib/python3.10/dist-packages;/usr/local/lib/python3.10/dist-packages"
+			"value" : "Python;3;11;0;64;;cpython-311-x86_64-linux-gnu;/usr/lib/python3.11;/usr/lib/python3.11;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages"
 		},
 		{
 			"name" : "_Python_INTERPRETER_SIGNATURE",
@@ -1619,19 +1619,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "61380851b1f49cd20124cec6c9ca8095"
-		},
-		{
-			"name" : "_Python_Interpreter_REASON_FAILURE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Interpreter reason failure"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
+			"value" : "9706960aa2a868136534c4a00c8f3e22"
 		},
 		{
 			"name" : "_Python_NumPy_REASON_FAILURE",
@@ -1667,7 +1655,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest/generated"
+			"value" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest/generated"
 		},
 		{
 			"name" : "gmock_BINARY_DIR",
@@ -1679,7 +1667,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock"
+			"value" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock"
 		},
 		{
 			"name" : "gmock_IS_TOP_LEVEL",
@@ -1715,7 +1703,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock"
+			"value" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock"
 		},
 		{
 			"name" : "gmock_build_tests",
@@ -1755,7 +1743,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest"
+			"value" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest"
 		},
 		{
 			"name" : "googletest-distribution_IS_TOP_LEVEL",
@@ -1779,7 +1767,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest"
+			"value" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest"
 		},
 		{
 			"name" : "gtest_BINARY_DIR",
@@ -1791,7 +1779,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest"
+			"value" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest"
 		},
 		{
 			"name" : "gtest_IS_TOP_LEVEL",
@@ -1815,7 +1803,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest"
+			"value" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest"
 		},
 		{
 			"name" : "gtest_build_samples",
@@ -1919,7 +1907,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug"
+			"value" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug"
 		},
 		{
 			"name" : "quicksort-bruteforce-unit-testing_IS_TOP_LEVEL",
@@ -1943,7 +1931,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug"
+			"value" : "/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug"
 		},
 		{
 			"name" : "targets_export_name",

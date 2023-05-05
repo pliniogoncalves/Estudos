@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.6 on linux)" generated="20230505 12:06:54.791" rpa="false" schemaversion="3">
+<suite id="s1" name="Form" source="/home/plinio/Documentos/IREDE/Estudos/Robot Framework/xpat/form.robot">
+<test id="s1-t1" name="scenario 1: Test fill out form" line="32">
+<kw name="open browser and access the website">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://itera-qa.azurewebsites.net/home/automation</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230505 12:06:54.854" level="INFO">Opening browser 'chrome' to base url 'https://itera-qa.azurewebsites.net/home/automation'.</msg>
+<status status="PASS" starttime="20230505 12:06:54.854" endtime="20230505 12:06:58.206"/>
+</kw>
+<status status="PASS" starttime="20230505 12:06:54.854" endtime="20230505 12:06:58.206"/>
+</kw>
+<kw name="fill in fields">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${input_name}</arg>
+<arg>Plinio</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230505 12:06:58.207" level="INFO">Typing text 'Plinio' into text field '//input[@id="name"]'.</msg>
+<status status="PASS" starttime="20230505 12:06:58.206" endtime="20230505 12:06:58.261"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${input_phone}</arg>
+<arg>988557799</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230505 12:06:58.261" level="INFO">Typing text '988557799' into text field '//input[@id="phone"]'.</msg>
+<status status="PASS" starttime="20230505 12:06:58.261" endtime="20230505 12:06:58.306"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${input_email}</arg>
+<arg>Plinio@teste.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230505 12:06:58.306" level="INFO">Typing text 'Plinio@teste.com' into text field '//input[@id="email"]'.</msg>
+<status status="PASS" starttime="20230505 12:06:58.306" endtime="20230505 12:06:58.354"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${input_password}</arg>
+<arg>123456</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230505 12:06:58.354" level="INFO">Typing text '123456' into text field '//input[@id="password"]'.</msg>
+<status status="PASS" starttime="20230505 12:06:58.354" endtime="20230505 12:06:58.409"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${textarea_address}</arg>
+<arg>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230505 12:06:58.409" level="INFO">Typing text 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx' into text field '//textarea[@id="address"]'.</msg>
+<status status="PASS" starttime="20230505 12:06:58.409" endtime="20230505 12:06:58.469"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${input_name}</arg>
+<arg>Plinio</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230505 12:06:58.469" level="INFO">Typing text 'Plinio' into text field '//input[@id="name"]'.</msg>
+<status status="PASS" starttime="20230505 12:06:58.469" endtime="20230505 12:06:58.510"/>
+</kw>
+<status status="PASS" starttime="20230505 12:06:58.206" endtime="20230505 12:06:58.510"/>
+</kw>
+<kw name="click submit">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${button_submit}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230505 12:06:58.511" level="INFO">Clicking element '//button[@name="submit"]'.</msg>
+<status status="PASS" starttime="20230505 12:06:58.510" endtime="20230505 12:06:58.538"/>
+</kw>
+<status status="PASS" starttime="20230505 12:06:58.510" endtime="20230505 12:06:58.538"/>
+</kw>
+<kw name="close website">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230505 12:06:58.539" endtime="20230505 12:06:58.596"/>
+</kw>
+<status status="PASS" starttime="20230505 12:06:58.538" endtime="20230505 12:06:58.596"/>
+</kw>
+<status status="PASS" starttime="20230505 12:06:54.854" endtime="20230505 12:06:58.596"/>
+</test>
+<status status="PASS" starttime="20230505 12:06:54.791" endtime="20230505 12:06:58.597"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Form">Form</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

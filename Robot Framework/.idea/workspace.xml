@@ -10,7 +10,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f3fe533-3e90-4a14-aeff-fd10ccb3243a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Socket c++ v3.0/src/Client/client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Socket c++ v3.0/src/Client/client.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuickSort and BruteForce/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Formulario/src/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Formulario/src/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Formulario/src/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Formulario/src/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Formulario/src/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Formulario/src/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.cmake/api/v1/reply/cache-v2-6e1716814dcf5c5599c1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-71f4b1d39b6d0ae5e6b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7e6d5ad6fa48d8c52073.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.cmake/api/v1/reply/index-2023-04-24T14-52-10-0434.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.cmake/api/v1/reply/target-gmock-Debug-161a25688126775b3bc7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.cmake/api/v1/reply/target-gmock_main-Debug-25b80d814ad2c9f99250.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.cmake/api/v1/reply/target-gtest-Debug-347d2041f291ab3c5117.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.cmake/api/v1/reply/target-gtest_main-Debug-c78de261ef0c70db9ded.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.cmake/api/v1/reply/target-quicksort-bruteforce-unit-testing_lib-Debug-42cca8ebfaa9b7a273b3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.cmake/api/v1/reply/target-quicksort-bruteforce-unit-testing_run-Debug-27575ae2fce71a14a727.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.cmake/api/v1/reply/target-quicksort-bruteforce-unit-testing_tst-Debug-a5a2933d0096a216806a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +73,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/home/plinio/Documentos/IREDE/Estudos/Robot Framework",
+    "last_opened_file_path": "/home/plinio/Documentos/IREDE/Estudos/QSBF",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +91,9 @@
       <option name="presentableId" value="Default" />
       <updated>1683120705862</updated>
       <workItem from="1683120706867" duration="788000" />
+      <workItem from="1683286506582" duration="7000" />
+      <workItem from="1683287532749" duration="76000" />
+      <workItem from="1683295576812" duration="16000" />
     </task>
     <servers />
   </component>

@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/
+cmake_ninja_workdir = /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -56,7 +56,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug && /snap/clion/234/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug -B/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug && /snap/clion/235/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug -B/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -74,7 +74,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -86,7 +86,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -98,7 +98,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -107,7 +107,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/CMakeLists.txt
+# /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -119,33 +119,41 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 build cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_run: phony || src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir
 
-build src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/BruteForce.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_run_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src/BruteForce.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_run
+build src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/BruteForce.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_run_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src/BruteForce.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_run
   DEP_FILE = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/BruteForce.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src
   OBJECT_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir
   OBJECT_FILE_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/
+  TARGET_PDB = src/quicksort-bruteforce-unit-testing_run.pdb
 
-build src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/QuickSort.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_run_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src/QuickSort.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_run
+build src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/QuickSort.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_run_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src/QuickSort.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_run
   DEP_FILE = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/QuickSort.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src
   OBJECT_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir
   OBJECT_FILE_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/
+  TARGET_PDB = src/quicksort-bruteforce-unit-testing_run.pdb
 
-build src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/Sorting.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_run_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src/Sorting.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_run
+build src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/Sorting.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_run_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src/Sorting.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_run
   DEP_FILE = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/Sorting.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src
   OBJECT_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir
   OBJECT_FILE_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/
+  TARGET_PDB = src/quicksort-bruteforce-unit-testing_run.pdb
 
-build src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/main.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_run_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src/main.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_run
+build src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/main.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_run_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src/main.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_run
   DEP_FILE = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src
   OBJECT_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir
   OBJECT_FILE_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/
+  TARGET_PDB = src/quicksort-bruteforce-unit-testing_run.pdb
 
 
 # =============================================================================
@@ -160,8 +168,9 @@ build src/quicksort-bruteforce-unit-testing_run: CXX_EXECUTABLE_LINKER__quicksor
   OBJECT_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = src/CMakeFiles/quicksort-bruteforce-unit-testing_run.dir/
   TARGET_FILE = src/quicksort-bruteforce-unit-testing_run
-  TARGET_PDB = quicksort-bruteforce-unit-testing_run.dbg
+  TARGET_PDB = src/quicksort-bruteforce-unit-testing_run.pdb
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target quicksort-bruteforce-unit-testing_lib
@@ -172,33 +181,41 @@ build src/quicksort-bruteforce-unit-testing_run: CXX_EXECUTABLE_LINKER__quicksor
 
 build cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_lib: phony || src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir
 
-build src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/BruteForce.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_lib_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src/BruteForce.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_lib
+build src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/BruteForce.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_lib_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src/BruteForce.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_lib
   DEP_FILE = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/BruteForce.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src
   OBJECT_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir
   OBJECT_FILE_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/quicksort-bruteforce-unit-testing_lib.pdb
+  TARGET_PDB = src/libquicksort-bruteforce-unit-testing_lib.pdb
 
-build src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/QuickSort.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_lib_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src/QuickSort.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_lib
+build src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/QuickSort.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_lib_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src/QuickSort.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_lib
   DEP_FILE = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/QuickSort.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src
   OBJECT_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir
   OBJECT_FILE_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/quicksort-bruteforce-unit-testing_lib.pdb
+  TARGET_PDB = src/libquicksort-bruteforce-unit-testing_lib.pdb
 
-build src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/Sorting.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_lib_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src/Sorting.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_lib
+build src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/Sorting.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_lib_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src/Sorting.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_lib
   DEP_FILE = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/Sorting.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src
   OBJECT_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir
   OBJECT_FILE_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/quicksort-bruteforce-unit-testing_lib.pdb
+  TARGET_PDB = src/libquicksort-bruteforce-unit-testing_lib.pdb
 
-build src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/main.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_lib_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src/main.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_lib
+build src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/main.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_lib_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src/main.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_lib
   DEP_FILE = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src
   OBJECT_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir
   OBJECT_FILE_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/quicksort-bruteforce-unit-testing_lib.pdb
+  TARGET_PDB = src/libquicksort-bruteforce-unit-testing_lib.pdb
 
 
 # =============================================================================
@@ -213,15 +230,16 @@ build src/libquicksort-bruteforce-unit-testing_lib.a: CXX_STATIC_LIBRARY_LINKER_
   OBJECT_DIR = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = src/CMakeFiles/quicksort-bruteforce-unit-testing_lib.dir/quicksort-bruteforce-unit-testing_lib.pdb
   TARGET_FILE = src/libquicksort-bruteforce-unit-testing_lib.a
-  TARGET_PDB = quicksort-bruteforce-unit-testing_lib.a.dbg
+  TARGET_PDB = src/libquicksort-bruteforce-unit-testing_lib.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -232,7 +250,7 @@ build src/edit_cache: phony src/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src && /snap/clion/234/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug -B/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src && /snap/clion/235/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug -B/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -250,7 +268,7 @@ build src/list_install_components: phony
 # Utility command for install
 
 build src/CMakeFiles/install.util: CUSTOM_COMMAND src/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -262,7 +280,7 @@ build src/install: phony src/CMakeFiles/install.util
 # Utility command for install/local
 
 build src/CMakeFiles/install/local.util: CUSTOM_COMMAND src/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -274,7 +292,7 @@ build src/install/local: phony src/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build src/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -283,7 +301,7 @@ build src/install/strip: phony src/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/CMakeLists.txt
+# /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -295,26 +313,32 @@ build src/install/strip: phony src/CMakeFiles/install/strip.util
 
 build cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_tst: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_lib
 
-build tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/BruteForceTest.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_tst_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/tst/BruteForceTest.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_tst
+build tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/BruteForceTest.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_tst_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/tst/BruteForceTest.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_tst
   DEP_FILE = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/BruteForceTest.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
   OBJECT_DIR = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir
   OBJECT_FILE_DIR = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir
+  TARGET_COMPILE_PDB = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/
+  TARGET_PDB = tst/quicksort-bruteforce-unit-testing_tst.pdb
 
-build tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/QuickSortTest.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_tst_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/tst/QuickSortTest.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_tst
+build tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/QuickSortTest.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_tst_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/tst/QuickSortTest.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_tst
   DEP_FILE = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/QuickSortTest.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
   OBJECT_DIR = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir
   OBJECT_FILE_DIR = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir
+  TARGET_COMPILE_PDB = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/
+  TARGET_PDB = tst/quicksort-bruteforce-unit-testing_tst.pdb
 
-build tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/main.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_tst_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/tst/main.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_tst
+build tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/main.cpp.o: CXX_COMPILER__quicksort-bruteforce-unit-testing_tst_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/tst/main.cpp || cmake_object_order_depends_target_quicksort-bruteforce-unit-testing_tst
   DEP_FILE = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
   OBJECT_DIR = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir
   OBJECT_FILE_DIR = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir
+  TARGET_COMPILE_PDB = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/
+  TARGET_PDB = tst/quicksort-bruteforce-unit-testing_tst.pdb
 
 
 # =============================================================================
@@ -330,15 +354,16 @@ build tst/quicksort-bruteforce-unit-testing_tst: CXX_EXECUTABLE_LINKER__quicksor
   OBJECT_DIR = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = tst/CMakeFiles/quicksort-bruteforce-unit-testing_tst.dir/
   TARGET_FILE = tst/quicksort-bruteforce-unit-testing_tst
-  TARGET_PDB = quicksort-bruteforce-unit-testing_tst.dbg
+  TARGET_PDB = tst/quicksort-bruteforce-unit-testing_tst.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build tst/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -349,7 +374,7 @@ build tst/edit_cache: phony tst/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build tst/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst && /snap/clion/234/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug -B/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst && /snap/clion/235/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug -B/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -367,7 +392,7 @@ build tst/list_install_components: phony
 # Utility command for install
 
 build tst/CMakeFiles/install.util: CUSTOM_COMMAND tst/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -379,7 +404,7 @@ build tst/install: phony tst/CMakeFiles/install.util
 # Utility command for install/local
 
 build tst/CMakeFiles/install/local.util: CUSTOM_COMMAND tst/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -391,7 +416,7 @@ build tst/install/local: phony tst/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build tst/CMakeFiles/install/strip.util: CUSTOM_COMMAND tst/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -400,7 +425,7 @@ build tst/install/strip: phony tst/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/CMakeLists.txt
+# /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/CMakeLists.txt
 # =============================================================================
 
 
@@ -408,7 +433,7 @@ build tst/install/strip: phony tst/CMakeFiles/install/strip.util
 # Utility command for edit_cache
 
 build lib/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -419,7 +444,7 @@ build lib/googletest/edit_cache: phony lib/googletest/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build lib/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest && /snap/clion/234/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug -B/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest && /snap/clion/235/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug -B/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -437,7 +462,7 @@ build lib/googletest/list_install_components: phony
 # Utility command for install
 
 build lib/googletest/CMakeFiles/install.util: CUSTOM_COMMAND lib/googletest/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -449,7 +474,7 @@ build lib/googletest/install: phony lib/googletest/CMakeFiles/install.util
 # Utility command for install/local
 
 build lib/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND lib/googletest/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -461,7 +486,7 @@ build lib/googletest/install/local: phony lib/googletest/CMakeFiles/install/loca
 # Utility command for install/strip
 
 build lib/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND lib/googletest/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -470,7 +495,7 @@ build lib/googletest/install/strip: phony lib/googletest/CMakeFiles/install/stri
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/CMakeLists.txt
+# /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -482,12 +507,14 @@ build lib/googletest/install/strip: phony lib/googletest/CMakeFiles/install/stri
 
 build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest
 
-build lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COMPILER__gmock_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
+build lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COMPILER__gmock_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
   DEP_FILE = lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/include -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/include -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
   OBJECT_DIR = lib/googletest/googlemock/CMakeFiles/gmock.dir
   OBJECT_FILE_DIR = lib/googletest/googlemock/CMakeFiles/gmock.dir/src
+  TARGET_COMPILE_PDB = lib/libgmockpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin/libgmockpdb_debug_postfix-NOTFOUND.pdb
 
 
 # =============================================================================
@@ -502,8 +529,9 @@ build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug lib/googletest/goog
   OBJECT_DIR = lib/googletest/googlemock/CMakeFiles/gmock.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = lib/libgmockpdb_debug_postfix-NOTFOUND.pdb
   TARGET_FILE = lib/libgmock.a
-  TARGET_PDB = gmock.a.dbg
+  TARGET_PDB = bin/libgmockpdb_debug_postfix-NOTFOUND.pdb
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target gmock_main
@@ -514,12 +542,14 @@ build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug lib/googletest/goog
 
 build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest
 
-build lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: CXX_COMPILER__gmock_main_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
+build lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: CXX_COMPILER__gmock_main_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
   DEP_FILE = lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/include -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/include -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
   OBJECT_DIR = lib/googletest/googlemock/CMakeFiles/gmock_main.dir
   OBJECT_FILE_DIR = lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src
+  TARGET_COMPILE_PDB = lib/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
 
 
 # =============================================================================
@@ -534,15 +564,16 @@ build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug lib/googl
   OBJECT_DIR = lib/googletest/googlemock/CMakeFiles/gmock_main.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = lib/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
   TARGET_FILE = lib/libgmock_main.a
-  TARGET_PDB = gmock_main.a.dbg
+  TARGET_PDB = bin/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build lib/googletest/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -553,7 +584,7 @@ build lib/googletest/googlemock/edit_cache: phony lib/googletest/googlemock/CMak
 # Utility command for rebuild_cache
 
 build lib/googletest/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock && /snap/clion/234/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug -B/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock && /snap/clion/235/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug -B/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -571,7 +602,7 @@ build lib/googletest/googlemock/list_install_components: phony
 # Utility command for install
 
 build lib/googletest/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND lib/googletest/googlemock/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -583,7 +614,7 @@ build lib/googletest/googlemock/install: phony lib/googletest/googlemock/CMakeFi
 # Utility command for install/local
 
 build lib/googletest/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND lib/googletest/googlemock/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -595,7 +626,7 @@ build lib/googletest/googlemock/install/local: phony lib/googletest/googlemock/C
 # Utility command for install/strip
 
 build lib/googletest/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND lib/googletest/googlemock/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -604,7 +635,7 @@ build lib/googletest/googlemock/install/strip: phony lib/googletest/googlemock/C
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/CMakeLists.txt
+# /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -616,12 +647,14 @@ build lib/googletest/googlemock/install/strip: phony lib/googletest/googlemock/C
 
 build cmake_object_order_depends_target_gtest: phony || lib/googletest/googletest/CMakeFiles/gtest.dir
 
-build lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COMPILER__gtest_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
+build lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COMPILER__gtest_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
   DEP_FILE = lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
   OBJECT_DIR = lib/googletest/googletest/CMakeFiles/gtest.dir
   OBJECT_FILE_DIR = lib/googletest/googletest/CMakeFiles/gtest.dir/src
+  TARGET_COMPILE_PDB = lib/libgtestpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin/libgtestpdb_debug_postfix-NOTFOUND.pdb
 
 
 # =============================================================================
@@ -636,8 +669,9 @@ build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug lib/googletest/goog
   OBJECT_DIR = lib/googletest/googletest/CMakeFiles/gtest.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = lib/libgtestpdb_debug_postfix-NOTFOUND.pdb
   TARGET_FILE = lib/libgtest.a
-  TARGET_PDB = gtest.a.dbg
+  TARGET_PDB = bin/libgtestpdb_debug_postfix-NOTFOUND.pdb
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target gtest_main
@@ -648,12 +682,14 @@ build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug lib/googletest/goog
 
 build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest
 
-build lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: CXX_COMPILER__gtest_main_Debug /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
+build lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: CXX_COMPILER__gtest_main_Debug /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
   DEP_FILE = lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14
-  INCLUDES = -I/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -isystem /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
+  INCLUDES = -I/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/include -isystem /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest
   OBJECT_DIR = lib/googletest/googletest/CMakeFiles/gtest_main.dir
   OBJECT_FILE_DIR = lib/googletest/googletest/CMakeFiles/gtest_main.dir/src
+  TARGET_COMPILE_PDB = lib/libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin/libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
 
 
 # =============================================================================
@@ -668,15 +704,16 @@ build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug lib/googl
   OBJECT_DIR = lib/googletest/googletest/CMakeFiles/gtest_main.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = lib/libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
   TARGET_FILE = lib/libgtest_main.a
-  TARGET_PDB = gtest_main.a.dbg
+  TARGET_PDB = bin/libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build lib/googletest/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -687,7 +724,7 @@ build lib/googletest/googletest/edit_cache: phony lib/googletest/googletest/CMak
 # Utility command for rebuild_cache
 
 build lib/googletest/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest && /snap/clion/234/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug -B/home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest && /snap/clion/235/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug -B/home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -705,7 +742,7 @@ build lib/googletest/googletest/list_install_components: phony
 # Utility command for install
 
 build lib/googletest/googletest/CMakeFiles/install.util: CUSTOM_COMMAND lib/googletest/googletest/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -717,7 +754,7 @@ build lib/googletest/googletest/install: phony lib/googletest/googletest/CMakeFi
 # Utility command for install/local
 
 build lib/googletest/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND lib/googletest/googletest/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -729,7 +766,7 @@ build lib/googletest/googletest/install/local: phony lib/googletest/googletest/C
 # Utility command for install/strip
 
 build lib/googletest/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND lib/googletest/googletest/all
-  COMMAND = cd /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest && /snap/clion/234/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest && /snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -769,42 +806,42 @@ build quicksort-bruteforce-unit-testing_tst: phony tst/quicksort-bruteforce-unit
 # =============================================================================
 
 #############################################
-# Folder: /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
+# Folder: /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug
 
 build all: phony src/all tst/all lib/googletest/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest
+# Folder: /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest
 
 build lib/googletest/all: phony lib/googletest/googlemock/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock
+# Folder: /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock
 
 build lib/googletest/googlemock/all: phony lib/libgmock.a lib/libgmock_main.a lib/googletest/googletest/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest
+# Folder: /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googletest
 
 build lib/googletest/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 
 # =============================================================================
 
 #############################################
-# Folder: /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src
+# Folder: /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/src
 
 build src/all: phony src/quicksort-bruteforce-unit-testing_run src/libquicksort-bruteforce-unit-testing_lib.a
 
 # =============================================================================
 
 #############################################
-# Folder: /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst
+# Folder: /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/cmake-build-debug/tst
 
 build tst/all: phony tst/quicksort-bruteforce-unit-testing_tst
 
@@ -815,14 +852,14 @@ build tst/all: phony tst/quicksort-bruteforce-unit-testing_tst
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/CMakeLists.txt /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/CMakeLists.txt /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/CMakeLists.txt /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/cmake/gmock.pc.in /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/cmake/gmock_main.pc.in /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/CMakeLists.txt /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/Config.cmake.in /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/gtest.pc.in /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/gtest_main.pc.in /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/internal_utils.cmake /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src/CMakeLists.txt /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/tst/CMakeLists.txt /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDependentOption.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckLibraryExists.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython/Support.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindThreads.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/GNUInstallDirs.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/CMakeLists.txt /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/CMakeLists.txt /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/CMakeLists.txt /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/cmake/gmock.pc.in /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/cmake/gmock_main.pc.in /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/CMakeLists.txt /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/Config.cmake.in /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/gtest.pc.in /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/gtest_main.pc.in /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/internal_utils.cmake /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src/CMakeLists.txt /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/tst/CMakeLists.txt /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDependentOption.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckLibraryExists.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython/Support.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindThreads.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/GNUInstallDirs.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-Determine-CXX.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/CMakeLists.txt /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/CMakeLists.txt /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/CMakeLists.txt /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/cmake/gmock.pc.in /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/cmake/gmock_main.pc.in /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/CMakeLists.txt /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/Config.cmake.in /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/gtest.pc.in /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/gtest_main.pc.in /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/internal_utils.cmake /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/src/CMakeLists.txt /home/plinio/Documentos/IREDE/DATACOM/Datacom/quicksort-bruteforce-unit-testing/cmake-build-debug/tst/CMakeLists.txt /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDependentOption.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckLibraryExists.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython/Support.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindThreads.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/GNUInstallDirs.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
+build /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/CMakeLists.txt /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/CMakeLists.txt /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/CMakeLists.txt /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/cmake/gmock.pc.in /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googlemock/cmake/gmock_main.pc.in /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/CMakeLists.txt /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/Config.cmake.in /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/gtest.pc.in /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/gtest_main.pc.in /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/lib/googletest/googletest/cmake/internal_utils.cmake /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/src/CMakeLists.txt /home/plinio/Documentos/IREDE/Estudos/quicksort-bruteforce-unit-testing/cmake-build-debug/tst/CMakeLists.txt /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDependentOption.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckLibraryExists.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython/Support.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindThreads.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/GNUInstallDirs.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-Determine-CXX.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /snap/clion/235/bin/cmake/linux/x64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
 
 
 #############################################
