@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.10.6 on linux)" generated="20230505 13:20:28.356" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.2 (Python 3.10.6 on linux)" generated="20230508 12:06:05.632" rpa="false" schemaversion="3">
 <suite id="s1" name="Bdd" source="/home/plinio/Documentos/IREDE/Estudos/Robot Framework/BDD/bdd.robot">
 <test id="s1-t1" name="Scenario 1: Play video on youtube website" line="39">
 <kw name="Given that I access the youtube website">
@@ -7,73 +7,73 @@
 <arg>${URL}</arg>
 <arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20230505 13:20:28.441" level="INFO">Opening browser 'chrome' to base url 'https://www.youtube.com/'.</msg>
-<status status="PASS" starttime="20230505 13:20:28.441" endtime="20230505 13:20:32.610"/>
+<msg timestamp="20230508 12:06:05.729" level="INFO">Opening browser 'chrome' to base url 'https://www.youtube.com/'.</msg>
+<status status="PASS" starttime="20230508 12:06:05.728" endtime="20230508 12:06:09.526"/>
 </kw>
-<status status="PASS" starttime="20230505 13:20:28.441" endtime="20230505 13:20:32.610"/>
+<status status="PASS" starttime="20230508 12:06:05.728" endtime="20230508 12:06:09.526"/>
 </kw>
 <kw name="When i type the name of the sonclick on the first option in the listg">
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${Input_Search}</arg>
 <arg>${SongName}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230505 13:20:32.611" level="INFO">Typing text 'Soad B.Y.O.B' into text field '//input[@id="search"]'.</msg>
-<status status="PASS" starttime="20230505 13:20:32.610" endtime="20230505 13:20:32.922"/>
+<msg timestamp="20230508 12:06:09.527" level="INFO">Typing text 'Soad B.Y.O.B' into text field '//input[@id="search"]'.</msg>
+<status status="PASS" starttime="20230508 12:06:09.526" endtime="20230508 12:06:09.615"/>
 </kw>
-<status status="PASS" starttime="20230505 13:20:32.610" endtime="20230505 13:20:32.922"/>
+<status status="PASS" starttime="20230508 12:06:09.526" endtime="20230508 12:06:09.615"/>
 </kw>
 <kw name="And click on the search button">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Button_Search}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230505 13:20:32.923" level="INFO">Clicking element '//button[@id="search-icon-legacy"]'.</msg>
-<status status="PASS" starttime="20230505 13:20:32.922" endtime="20230505 13:20:33.345"/>
+<msg timestamp="20230508 12:06:09.616" level="INFO">Clicking element '//button[@id="search-icon-legacy"]'.</msg>
+<status status="PASS" starttime="20230508 12:06:09.615" endtime="20230508 12:06:09.692"/>
 </kw>
-<status status="PASS" starttime="20230505 13:20:32.922" endtime="20230505 13:20:33.345"/>
+<status status="PASS" starttime="20230508 12:06:09.615" endtime="20230508 12:06:09.692"/>
 </kw>
 <kw name="And click on the first option in the list">
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${First}</arg>
 <arg>10</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20230505 13:20:33.346" endtime="20230505 13:20:34.219"/>
+<status status="PASS" starttime="20230508 12:06:09.693" endtime="20230508 12:06:10.548"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${First}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230505 13:20:34.220" level="INFO">Clicking element '(//yt-formatted-string[@class="style-scope ytd-video-renderer"])[1]'.</msg>
-<status status="PASS" starttime="20230505 13:20:34.219" endtime="20230505 13:20:34.479"/>
+<msg timestamp="20230508 12:06:10.548" level="INFO">Clicking element '(//yt-formatted-string[@class="style-scope ytd-video-renderer"])[1]'.</msg>
+<status status="PASS" starttime="20230508 12:06:10.548" endtime="20230508 12:06:10.617"/>
 </kw>
-<status status="PASS" starttime="20230505 13:20:33.345" endtime="20230505 13:20:34.479"/>
+<status status="PASS" starttime="20230508 12:06:09.692" endtime="20230508 12:06:10.617"/>
 </kw>
 <kw name="Then the video is played">
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${Test}</arg>
 <arg>10</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20230505 13:20:34.479" endtime="20230505 13:20:35.707"/>
+<status status="PASS" starttime="20230508 12:06:10.617" endtime="20230508 12:06:11.740"/>
 </kw>
 <kw name="Element Should Be Visible" library="SeleniumLibrary">
 <arg>${Test}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<msg timestamp="20230505 13:20:35.817" level="INFO">Element '(//yt-formatted-string[@class="style-scope ytd-watch-metadata"])[1]' is displayed.</msg>
-<status status="PASS" starttime="20230505 13:20:35.707" endtime="20230505 13:20:35.817"/>
+<msg timestamp="20230508 12:06:11.826" level="INFO">Element '(//yt-formatted-string[@class="style-scope ytd-watch-metadata"])[1]' is displayed.</msg>
+<status status="PASS" starttime="20230508 12:06:11.740" endtime="20230508 12:06:11.827"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>10s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20230505 13:20:45.818" level="INFO">Slept 10 seconds</msg>
-<status status="PASS" starttime="20230505 13:20:35.817" endtime="20230505 13:20:45.818"/>
+<msg timestamp="20230508 12:06:21.827" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20230508 12:06:11.827" endtime="20230508 12:06:21.827"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20230505 13:20:45.818" endtime="20230505 13:20:45.882"/>
+<status status="PASS" starttime="20230508 12:06:21.827" endtime="20230508 12:06:21.889"/>
 </kw>
-<status status="PASS" starttime="20230505 13:20:34.479" endtime="20230505 13:20:45.882"/>
+<status status="PASS" starttime="20230508 12:06:10.617" endtime="20230508 12:06:21.889"/>
 </kw>
-<status status="PASS" starttime="20230505 13:20:28.440" endtime="20230505 13:20:45.883"/>
+<status status="PASS" starttime="20230508 12:06:05.728" endtime="20230508 12:06:21.889"/>
 </test>
-<status status="PASS" starttime="20230505 13:20:28.357" endtime="20230505 13:20:45.883"/>
+<status status="PASS" starttime="20230508 12:06:05.633" endtime="20230508 12:06:21.890"/>
 </suite>
 <statistics>
 <total>
