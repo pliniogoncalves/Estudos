@@ -67,14 +67,22 @@ void Server::Start()
             std::cerr << "Error receiving ICMP packet" << std::endl;
             break;
         }
+        uint8_t icmpType = buffer[0];
+        uint8_t icmpCode = buffer[1];
+        std::cout << "Received ICMP packet - Type: " << static_cast<int>(icmpType) << ", Code: " << static_cast<int>(icmpCode) << std::endl;
 
-        // Process the received ICMP packet as needed
-        // For example, you can extract the ICMP header and check its type and code
+        uint8_t responseBuffer[8];
+        responseBuffer[0] = 0;  // ICMP type (Echo Reply)
+        responseBuffer[1] = 0;  // ICMP code
 
-        // Sending a response ICMP packet (if required)
+        ssize_t sent_len = send(client_sock, responseBuffer, sizeof(responseBuffer), 0);
+        if (sent_len == -1) {
+            std::cerr << "Error sending ICMP response packet" << std::endl;
+            break;
+        }
 
-        // For simplicity, we'll exit the loop after receiving the first packet
-        break;
+        // For simplicity, we'll exit the loop after receiving and processing the first packet
+        //break;
     }
 
     // Closing the client socket

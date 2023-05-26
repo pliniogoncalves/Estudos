@@ -107,7 +107,6 @@ uint16_t Client::CalculateChecksum(uint16_t* buffer, int size) {
     return static_cast<uint16_t>(~checksum);
 }
 
-
 bool Client::ReceivePingReply() {
     // Receiving the ICMP reply
     char buffer[1024];
@@ -126,4 +125,3 @@ bool Client::ReceivePingReply() {
 
     return isReply;
 }
-

@@ -30,7 +30,7 @@ int main() {
         // Receiving ICMP reply
         bool receivedReply = client.ReceivePingReply();
         if (receivedReply) {
-            std::cout << "Received ICMP reply" << std::endl;
+            std::cout << "Received ICMP reply" << receivedReply << std::endl;
         } else {
             std::cout << "Did not receive ICMP reply" << std::endl;
         }
