@@ -1,4 +1,4 @@
-# Install script for directory: /home/plinio/Documentos/IREDE/DATACOM/Datacom/unit-testing/cmake-build-debug/lib/googletest
+# Install script for directory: /home/plinio/Documentos/IREDE/Estudos/unit-testing-gtest/cmake-build-debug/lib/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/plinio/Documentos/IREDE/DATACOM/Datacom/unit-testing/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock/cmake_install.cmake")
+  include("/home/plinio/Documentos/IREDE/Estudos/unit-testing-gtest/cmake-build-debug/cmake-build-debug/lib/googletest/googlemock/cmake_install.cmake")
 
 endif()
 

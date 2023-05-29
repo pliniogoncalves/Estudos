@@ -1,4 +1,4 @@
-# Install script for directory: /home/plinio/Documentos/IREDE/DATACOM/Datacom/unit-testing/cmake-build-debug/test
+# Install script for directory: /home/plinio/Documentos/IREDE/Estudos/unit-testing-gtest/cmake-build-debug/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

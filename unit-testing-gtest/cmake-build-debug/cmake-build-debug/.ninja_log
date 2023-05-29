@@ -7,7 +7,7 @@
 3310	3408	1681918916402955463	test/unit_testing_test	f533ab8f0264625a
 0	9	1682347768591865357	src/CMakeFiles/unit-testing_run_run.dir/soma.cpp.o	a4737f8ddf1e2c9a
 12	16	1682347768599865525	src/libunit-testing_run_lib.a	2ad048aaa291004e
-0	38	1682347781316131701	build.ninja	b8b41a2ed6c8c4df
+0	47	1685368316343104002	build.ninja	b8b41a2ed6c8c4df
 1	10	1682347745783385694	src/CMakeFiles/unit-testing_lib.dir/soma.cpp.o	bfcf17a3dac040cd
 2	1317	1681918983110007551	lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	b30e91696da056b4
 1	415	1682347746187394217	test/CMakeFiles/unit-testing_test.dir/somaTest.cpp.o	ac403c2ed1be6b85
@@ -15,7 +15,7 @@
 1	417	1682347768999873912	test/CMakeFiles/unit-testing_run_test.dir/main.cpp.o	fb3e305bbcf9044d
 2	854	1681918982645986995	test/CMakeFiles/unit-testing_test.dir/main.cpp.o	64ee8c40e2e7e7ea
 0	12	1682347745783385694	src/CMakeFiles/unit-testing_run.dir/soma.cpp.o	86dbe9947364165
-1	90	1682347641961162527	test/unit-testing_test	7ea82472298439b3
+0	91	1682347781416133791	test/unit-testing_test	7ea82472298439b3
 1	463	1682347769047874918	test/CMakeFiles/unit-testing_run_test.dir/somaTest.cpp.o	17767be7280b52e6
 17	49	1681918913042796301	src/unit_testing_run	c17a301c2494f8e6
 3	1284	1681918983074005957	lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	5ad50f70604244bf
@@ -28,5 +28,3 @@
 3072	3078	1681918984870085429	lib/libgtest_main.a	8f39d9c72123980
 1	26	1681918913022795352	src/CMakeFiles/unit_testing_lib.dir/soma.cpp.o	6dffc87ec5eb2e51
 2	2040	1681918983830039424	lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	d03c10476415bada
-0	47	1682347781316131701	build.ninja	b8b41a2ed6c8c4df
-0	91	1682347781416133791	test/unit-testing_test	7ea82472298439b3
