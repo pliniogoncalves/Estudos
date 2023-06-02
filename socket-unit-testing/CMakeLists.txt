@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-project(quicksort-bruteforce-unit-testing)
+project(socket-unit-testing)
 
 set(CMAKE_CXX_STANDARD 14)
 

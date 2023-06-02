@@ -19,10 +19,10 @@ Client::Client(const std::string& server_address, int server_port) :
 
 Client::~Client()
 {
-    Close();
+    stop();
 }
 
-bool Client::Connect() {
+bool Client::start() {
     // Creating the socket
     m_sock = socket(AF_INET, SOCK_STREAM, 0);
     if (m_sock == -1) {
@@ -44,7 +44,7 @@ bool Client::Connect() {
     return true;
 }
 
-bool Client::SendPing()
+bool Client::sendPing()
 {
     // Creating the ICMP packet
     const int PACKET_SIZE = 64; // Set the packet size as needed
@@ -74,7 +74,7 @@ bool Client::SendPing()
     icmp_header->sequence = 0;
 
     // Calculate ICMP checksum
-    icmp_header->checksum = CalculateChecksum(reinterpret_cast<uint16_t*>(icmp_header), sizeof(ICMPHeader));
+    icmp_header->checksum = calculateChecksum(reinterpret_cast<uint16_t*>(icmp_header), sizeof(ICMPHeader));
 
     // Sending the ICMP packet
     if (send(m_sock, packet, PACKET_SIZE, 0) == -1) {
@@ -86,14 +86,14 @@ bool Client::SendPing()
 }
 
 
-void Client::Close() {
+void Client::stop() {
     if (m_sock != -1) {
         close(m_sock);
         m_sock = -1;
     }
 }
 
-uint16_t Client::CalculateChecksum(uint16_t* buffer, int size) {
+uint16_t Client::calculateChecksum(uint16_t* buffer, int size) {
     unsigned long checksum = 0;
     while (size > 1) {
         checksum += *buffer++;
@@ -107,7 +107,7 @@ uint16_t Client::CalculateChecksum(uint16_t* buffer, int size) {
     return static_cast<uint16_t>(~checksum);
 }
 
-bool Client::ReceivePingReply() {
+bool Client::receivePingReply() {
     // Receiving the ICMP reply
     char buffer[1024];
     memset(buffer, 0, sizeof(buffer));

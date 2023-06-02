@@ -16,10 +16,10 @@ Server::Server(int server_port) :
 
 Server::~Server()
 {
-    Stop();
+    stop();
 }
 
-void Server::Start()
+void Server::start()
 {
     // Creating the socket
     m_sock = socket(AF_INET,SOCK_STREAM, 0);
@@ -89,7 +89,7 @@ void Server::Start()
     close(client_sock);
 }
 
-void Server::Stop()
+void Server::stop()
 {
     // Closing the server socket
     if (m_sock != -1) {

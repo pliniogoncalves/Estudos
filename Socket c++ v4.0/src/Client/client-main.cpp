@@ -13,7 +13,7 @@ int main() {
     Client client("127.0.0.1", 8888);
 
     // server connection
-    if (!client.Connect()) {
+    if (!client.start()) {
         return 1;
     }
 
@@ -23,12 +23,12 @@ int main() {
     // Ping loop
     do{
         // Sending ICMP PING
-        if (!client.SendPing()) {
+        if (!client.sendPing()) {
             return 1;
         }
 
         // Receiving ICMP reply
-        bool receivedReply = client.ReceivePingReply();
+        bool receivedReply = client.receivePingReply();
         if (receivedReply) {
             std::cout << "Received ICMP reply" << receivedReply << std::endl;
         } else {
@@ -40,7 +40,7 @@ int main() {
     } while (numPings < MAX_PINGS); //continues until the received message contains the '#' character
 
     // socket closing
-    client.Close();
+    client.stop();
 
     return 0;
 }

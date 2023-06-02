@@ -21,8 +21,8 @@ public:
     Server(int server_port);
     ~Server();
 
-    void Start();
-    void Stop();
+    void start();
+    void stop();
 
 private:
     int m_sock;

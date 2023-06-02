@@ -44,19 +44,12 @@ bool Client::start() {
     return true;
 }
 
-void Client::sendPing()
+bool Client::sendPing()
 {
     // Creating the ICMP packet
     const int PACKET_SIZE = 64; // Set the packet size as needed
     char packet[PACKET_SIZE];
     memset(packet, 0, PACKET_SIZE);
-
-    // Generate AES key and initialization vector (IV)
-    const int AES_KEY_SIZE = 16; // 128-bit key size
-    uint8_t aesKey[AES_KEY_SIZE];
-    uint8_t iv[AES_BLOCK_SIZE];
-    RAND_bytes(aesKey, AES_KEY_SIZE);
-    RAND_bytes(iv, AES_BLOCK_SIZE);
 
     // IP header
     IPHeader* ip_header = reinterpret_cast<IPHeader*>(packet);
@@ -83,18 +76,13 @@ void Client::sendPing()
     // Calculate ICMP checksum
     icmp_header->checksum = calculateChecksum(reinterpret_cast<uint16_t*>(icmp_header), sizeof(ICMPHeader));
 
-    // Send encrypted packet to the server
-    std::vector<uint8_t> plaintext = {0x01, 0x02, 0x03}; // Example plaintext
-    std::vector<uint8_t> encrypted = encryptAES(plaintext.data(), plaintext.size(), aesKey, iv);
-
-    ssize_t sent_len = send(m_sock, encrypted.data(), encrypted.size(), 0);
-    if (sent_len == -1) {
-        std::cerr << "Error sending packet" << std::endl;
-        exit(1);
-    } else{
-        std::cerr << "Sending packet: " << sent_len << std::endl;
+    // Sending the ICMP packet
+    if (send(m_sock, packet, PACKET_SIZE, 0) == -1) {
+        std::cerr << "Error sending ICMP packet" << std::endl;
+        return false;
     }
 
+    return true;
 }
 
 
@@ -119,68 +107,33 @@ uint16_t Client::calculateChecksum(uint16_t* buffer, int size) {
     return static_cast<uint16_t>(~checksum);
 }
 
-void Client::receivePingReply() {
-    // Generate AES key and initialization vector (IV)
-    const int AES_KEY_SIZE = 16; // 128-bit key size
-    uint8_t aesKey[AES_KEY_SIZE];
-    uint8_t iv[AES_BLOCK_SIZE];
-    RAND_bytes(aesKey, AES_KEY_SIZE);
-    RAND_bytes(iv, AES_BLOCK_SIZE);
-
+bool Client::receivePingReply() {
     // Receiving the ICMP reply
-    const int BUFFER_SIZE = 1024;
-    uint8_t buffer[BUFFER_SIZE];
-    ssize_t recv_len = recv(m_sock, buffer, sizeof(buffer), 0);
-    if (recv_len == -1) {
-        std::cerr << "Error receiving packet" << std::endl;
-        exit(1);
+    char buffer[1024];
+    memset(buffer, 0, sizeof(buffer));
+    if (recv(m_sock, buffer, sizeof(buffer), 0) == -1) {
+        std::cerr << "Error receiving ICMP reply" << std::endl;
+        return false;
     }
 
-    std::vector<uint8_t> decrypted = decryptAES(buffer, recv_len, aesKey, iv);
-    // Display the decrypted message
-    displayDecryptedMessage(decrypted);
+    // Extracting the ICMP header
+    bool isReply = false;
+    if (buffer[20] == 0x00 && buffer[21] == 0x00) {
+        // ICMP type (echo reply) and code (echo reply)
+        isReply = true;
+    }
 
+    return isReply;
 }
 
-// AES encryption
-std::vector<uint8_t> Client::encryptAES(const uint8_t* plaintext, size_t plaintextLength, const uint8_t* key, const uint8_t* iv)
-{
-    std::vector<uint8_t> ciphertext(plaintextLength + AES_BLOCK_SIZE); // Allocate space for padding
-
-    EVP_CIPHER_CTX* ctx = EVP_CIPHER_CTX_new();
-    EVP_EncryptInit_ex(ctx, EVP_aes_128_cbc(), nullptr, key, iv);
-    EVP_EncryptUpdate(ctx, ciphertext.data(), nullptr, plaintext, plaintextLength);
-    int ciphertextLength;
-    EVP_EncryptFinal_ex(ctx, ciphertext.data() + plaintextLength, &ciphertextLength);
-    EVP_CIPHER_CTX_free(ctx);
-
-    ciphertext.resize(plaintextLength + ciphertextLength);
-
-    return ciphertext;
-}
-// AES decryption
-std::vector<uint8_t> Client::decryptAES(const uint8_t* ciphertext, size_t ciphertextLength, const uint8_t* key, const uint8_t* iv)
-{
-    std::vector<uint8_t> plaintext(ciphertextLength);
-
-    EVP_CIPHER_CTX* ctx = EVP_CIPHER_CTX_new();
-    EVP_DecryptInit_ex(ctx, EVP_aes_128_cbc(), nullptr, key, iv);
-    int decryptedLength;
-    EVP_DecryptUpdate(ctx, plaintext.data(), &decryptedLength, ciphertext, ciphertextLength);
-    int plaintextLength;
-    EVP_DecryptFinal_ex(ctx, plaintext.data() + decryptedLength, &plaintextLength);
-    EVP_CIPHER_CTX_free(ctx);
-
-    plaintext.resize(decryptedLength + plaintextLength);
-
-    return plaintext;
+int Client::getSocket() const {
+    return m_sock;
 }
 
-void Client::displayDecryptedMessage(const std::vector<uint8_t>& plaintext)
-{
-    // Convert the vector of uint8_t to a string
-    std::string message(plaintext.begin(), plaintext.end());
+int Client::getServerPort() const {
+    return m_server_port;
+}
 
-    // Print the decrypted message
-    std::cout << "Receiver Decrypted Message: " << message << std::endl;
+std::string Client::getServerAddress() const {
+    return m_server_address;
 }

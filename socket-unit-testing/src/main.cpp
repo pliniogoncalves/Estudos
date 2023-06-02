@@ -1,39 +1,43 @@
+//
+// Created by plinio on 02/06/23.
+//
+#include "client.h"
 #include "server.h"
-#include "server.cpp"
 
-int main(){
+int main() {
+    Server server(12345);
+    server.start();
+    Client client("127.0.0.1", 12345);
 
-    // Using smart pointers to create BruteForce and QuickSort objects
-
-    SortingPtr ordination1 = std::make_shared<BruteForce>();
-    SortingPtr ordination2 = std::make_shared<QuickSort>();
-
-    //Example of using sorting classes
-
-    int size;
-    std::cout << "Enter array size: ";
-    std::cin >> size;
-
-    std::vector<int> arr(size);
-
-    // Prompts the user to input array elements
-    std::cout << "Enter the array values: " << std::endl;
-    for(int i =0; i < size; i++){
-        std::cin >> arr[i];
+    // server connection
+    if (!client.start()) {
+        return 1;
     }
-    std::cout << std::endl;
 
-    ordination1 ->ordination(arr);
-    std::cout << "Array Sorted by BruteForce: ";
-    for (int num: arr)
-        std::cout << num << " ";
-    std::cout << std::endl;
+    // Ping loop with termination condition
+    int numPings = 0;
+    const int MAX_PINGS = 10;  // Maximum number of ICMP ping packets to send
+    // Ping loop
+    do{
+        // Sending ICMP PING
+        if (!client.sendPing()) {
+            return 1;
+        }
 
-    ordination2->ordination(arr);
-    std::cout << "Array sorted by QuickSort: ";
-    for (int num : arr)
-        std::cout << num << " ";
-    std::cout << std::endl;
+        // Receiving ICMP reply
+        bool receivedReply = client.receivePingReply();
+        if (receivedReply) {
+            std::cout << "Received ICMP reply" << receivedReply << std::endl;
+        } else {
+            std::cout << "Did not receive ICMP reply" << std::endl;
+        }
 
+        numPings++;
+
+    } while (numPings < MAX_PINGS); //continues until the received message contains the '#' character
+
+    // socket closing
+    client.stop();
+    server.stop();
     return 0;
 }

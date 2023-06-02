@@ -25,16 +25,16 @@ class Client {
 public:
     Client(const std::string& server_address, int server_port);
     ~Client();
-    bool Connect();
-    bool SendPing();
-    bool ReceivePingReply();
-    void Close();
+    bool start();
+    bool sendPing();
+    bool receivePingReply();
+    void stop();
 
 private:
     int m_sock;
     std::string m_server_address;
     int m_server_port;
-    uint16_t CalculateChecksum(uint16_t* buffer, int size);
+    uint16_t calculateChecksum(uint16_t* buffer, int size);
 
 };
 

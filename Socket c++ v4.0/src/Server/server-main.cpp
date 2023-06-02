@@ -9,10 +9,10 @@
 #include "server.cpp"
 
 int main() {
-    int server_port = 8888;
-    Server server(server_port);
-    server.Start();
-    server.Stop();
+
+    Server server(1234);
+    server.start();
+    server.stop();
 
     return 0;
 }
