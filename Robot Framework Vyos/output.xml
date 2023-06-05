@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.6 on linux)" generated="20230605 12:49:29.257" rpa="false" schemaversion="3">
+<suite id="s1" name="Test" source="/home/plinio/Documentos/IREDE/Estudos/Robot Framework Vyos/Test">
+<suite id="s1-s1" name="Test" source="/home/plinio/Documentos/IREDE/Estudos/Robot Framework Vyos/Test/test.robot">
+<test id="s1-s1-t1" name="Ping Test HOST1 - HOST2" line="11">
+<kw name="Open Connection" library="SSHLibrary">
+<arg>${HOST1}</arg>
+<doc>Opens a new SSH connection to the given ``host`` and ``port``.</doc>
+<status status="PASS" starttime="20230605 12:49:29.332" endtime="20230605 12:49:29.332"/>
+</kw>
+<kw name="Login" library="SSHLibrary">
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<doc>Logs into the SSH server with the given ``username`` and ``password``.</doc>
+<msg timestamp="20230605 12:49:29.333" level="INFO">Logging into '192.168.0.124:22' as 'vyos'.</msg>
+<msg timestamp="20230605 12:49:30.475" level="INFO">Read output: Welcome to VyOS!
+
+Check out project news at https://blog.vyos.io
+and feel free to report bugs at https://phabricator.vyos.net
+
+You can change this banner using "set system login banner post-login" command.
+
+VyOS is a free software distribution that includes multiple components,
+you can check individual component licenses under /usr/share/doc/*/copyright
+
+Last login: Mon Jun  5 15:48:40 2023 from plinio-vostro-3520.localdomain
+vyos@vyos:~$</msg>
+<status status="PASS" starttime="20230605 12:49:29.333" endtime="20230605 12:49:30.475"/>
+</kw>
+<kw name="Execute Command" library="SSHLibrary">
+<var>${output}</var>
+<arg>ping -c 5 ${HOST2}</arg>
+<doc>Executes ``command`` on the remote machine and returns its outputs.</doc>
+<msg timestamp="20230605 12:49:30.476" level="INFO">Executing command 'ping -c 5 192.168.0.94'.</msg>
+<msg timestamp="20230605 12:49:34.578" level="INFO">Command exited with return code 0.</msg>
+<msg timestamp="20230605 12:49:34.579" level="INFO">${output} = PING 192.168.0.94 (192.168.0.94) 56(84) bytes of data.
+64 bytes from 192.168.0.94: icmp_seq=1 ttl=64 time=0.344 ms
+64 bytes from 192.168.0.94: icmp_seq=2 ttl=64 time=0.357 ms
+64 bytes from 192.168.0.9...</msg>
+<status status="PASS" starttime="20230605 12:49:30.476" endtime="20230605 12:49:34.589"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${output}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230605 12:49:34.590" level="INFO">PING 192.168.0.94 (192.168.0.94) 56(84) bytes of data.
+64 bytes from 192.168.0.94: icmp_seq=1 ttl=64 time=0.344 ms
+64 bytes from 192.168.0.94: icmp_seq=2 ttl=64 time=0.357 ms
+64 bytes from 192.168.0.94: icmp_seq=3 ttl=64 time=0.265 ms
+64 bytes from 192.168.0.94: icmp_seq=4 ttl=64 time=0.409 ms
+64 bytes from 192.168.0.94: icmp_seq=5 ttl=64 time=0.280 ms
+
+--- 192.168.0.94 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4093ms
+rtt min/avg/max/mdev = 0.265/0.331/0.409/0.052 ms</msg>
+<status status="PASS" starttime="20230605 12:49:34.590" endtime="20230605 12:49:34.590"/>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<arg>${output}</arg>
+<arg>5 packets transmitted, 5 received, 0% packet loss</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" starttime="20230605 12:49:34.591" endtime="20230605 12:49:34.591"/>
+</kw>
+<kw name="Close Connection" library="SSHLibrary">
+<doc>Closes the current connection.</doc>
+<status status="PASS" starttime="20230605 12:49:34.592" endtime="20230605 12:49:34.593"/>
+</kw>
+<status status="PASS" starttime="20230605 12:49:29.331" endtime="20230605 12:49:34.593"/>
+</test>
+<test id="s1-s1-t2" name="Ping Test HOST2 - HOST1" line="19">
+<kw name="Open Connection" library="SSHLibrary">
+<arg>${HOST2}</arg>
+<doc>Opens a new SSH connection to the given ``host`` and ``port``.</doc>
+<status status="PASS" starttime="20230605 12:49:34.595" endtime="20230605 12:49:34.595"/>
+</kw>
+<kw name="Login" library="SSHLibrary">
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<doc>Logs into the SSH server with the given ``username`` and ``password``.</doc>
+<msg timestamp="20230605 12:49:34.596" level="INFO">Logging into '192.168.0.94:22' as 'vyos'.</msg>
+<msg timestamp="20230605 12:49:35.719" level="INFO">Read output: Welcome to VyOS!
+
+Check out project news at https://blog.vyos.io
+and feel free to report bugs at https://phabricator.vyos.net
+
+You can change this banner using "set system login banner post-login" command.
+
+VyOS is a free software distribution that includes multiple components,
+you can check individual component licenses under /usr/share/doc/*/copyright
+
+Last login: Mon Jun  5 15:48:46 2023 from plinio-vostro-3520.localdomain
+vyos@vyos:~$</msg>
+<status status="PASS" starttime="20230605 12:49:34.595" endtime="20230605 12:49:35.719"/>
+</kw>
+<kw name="Execute Command" library="SSHLibrary">
+<var>${output}</var>
+<arg>ping -c 5 ${HOST1}</arg>
+<doc>Executes ``command`` on the remote machine and returns its outputs.</doc>
+<msg timestamp="20230605 12:49:35.720" level="INFO">Executing command 'ping -c 5 192.168.0.124'.</msg>
+<msg timestamp="20230605 12:49:39.824" level="INFO">Command exited with return code 0.</msg>
+<msg timestamp="20230605 12:49:39.824" level="INFO">${output} = PING 192.168.0.124 (192.168.0.124) 56(84) bytes of data.
+64 bytes from 192.168.0.124: icmp_seq=1 ttl=64 time=0.495 ms
+64 bytes from 192.168.0.124: icmp_seq=2 ttl=64 time=0.334 ms
+64 bytes from 192.168...</msg>
+<status status="PASS" starttime="20230605 12:49:35.720" endtime="20230605 12:49:39.825"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${output}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230605 12:49:39.825" level="INFO">PING 192.168.0.124 (192.168.0.124) 56(84) bytes of data.
+64 bytes from 192.168.0.124: icmp_seq=1 ttl=64 time=0.495 ms
+64 bytes from 192.168.0.124: icmp_seq=2 ttl=64 time=0.334 ms
+64 bytes from 192.168.0.124: icmp_seq=3 ttl=64 time=0.327 ms
+64 bytes from 192.168.0.124: icmp_seq=4 ttl=64 time=0.346 ms
+64 bytes from 192.168.0.124: icmp_seq=5 ttl=64 time=0.326 ms
+
+--- 192.168.0.124 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4096ms
+rtt min/avg/max/mdev = 0.326/0.365/0.495/0.068 ms</msg>
+<status status="PASS" starttime="20230605 12:49:39.825" endtime="20230605 12:49:39.825"/>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<arg>${output}</arg>
+<arg>5 packets transmitted, 5 received, 0% packet loss</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" starttime="20230605 12:49:39.825" endtime="20230605 12:49:39.826"/>
+</kw>
+<kw name="Close Connection" library="SSHLibrary">
+<doc>Closes the current connection.</doc>
+<status status="PASS" starttime="20230605 12:49:39.826" endtime="20230605 12:49:39.826"/>
+</kw>
+<status status="PASS" starttime="20230605 12:49:34.594" endtime="20230605 12:49:39.826"/>
+</test>
+<status status="PASS" starttime="20230605 12:49:29.276" endtime="20230605 12:49:39.828"/>
+</suite>
+<status status="PASS" starttime="20230605 12:49:29.259" endtime="20230605 12:49:39.829"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Test">Test</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1" name="Test">Test.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
