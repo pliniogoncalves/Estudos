@@ -27,6 +27,7 @@ public:
 
 private:
     AES_KEY aesKey;
+    unsigned char key[AES_BLOCK_SIZE];
     unsigned char iv[AES_BLOCK_SIZE];
 };
 
