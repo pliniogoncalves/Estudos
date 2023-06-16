@@ -14,7 +14,6 @@ icmp_packet::icmp_packet(const char* destinationIp, const char* payload) {
     memset(packet, 0, sizeof(packet));
     icmpHeader = (struct icmphdr*)packet;
 
-    buildICMPHeader();
     strncpy(packet + sizeof(struct icmphdr), payload, sizeof(packet) - sizeof(struct icmphdr));
 
     memset(&destination, 0, sizeof(destination));
@@ -49,11 +48,11 @@ bool icmp_packet::send() {
     return true;
 }
 
-void icmp_packet::buildICMPHeader() {
-    icmpHeader->type = ICMP_ECHO; // Echo request
-    icmpHeader->code = 0;
-    icmpHeader->un.echo.id = 1234; // Customize if desired
-    icmpHeader->un.echo.sequence = 1; // Customize if desired
+void icmp_packet::buildICMPHeader(uint8_t type, uint8_t code, uint16_t id, uint16_t sequence) {
+    icmpHeader->type = type; // Echo request
+    icmpHeader->code = code;
+    icmpHeader->un.echo.id = id; // Customize if desired
+    icmpHeader->un.echo.sequence = sequence; // Customize if desired
 }
 
 unsigned short icmp_packet::calculateChecksum(const void* buffer, int size) {

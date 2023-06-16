@@ -32,9 +32,11 @@ bool icmp_packet_receiver::receive() {
         if (isValidICMPPacket(buffer, bytesRead)) {
             processICMPPacket(buffer, bytesRead);
         }
+
+        processICMPPacket(buffer, bytesRead);
     }
 
-    return true;  // Not reachable
+    return true;
 }
 
 bool icmp_packet_receiver::initializeSocket() {

@@ -10,38 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7b09d56-403c-4827-9fd8-72d5e494ebf1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Ping Socket ICMP/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ping Socket ICMP/src/client.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ping Socket ICMP/src/client.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ping Socket ICMP/src/icmp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ping Socket ICMP/src/icmp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ping Socket ICMP/src/icmpheader.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ping Socket ICMP/src/icmpheader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ping Socket ICMP/src/main" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ping Socket ICMP/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ping Socket ICMP/src/server.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ping Socket ICMP/src/server.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/receiver/externo/icmp_receiver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/receiver/externo/icmp_receiver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/receiver/externo/icmp_receiver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/receiver/externo/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/receiver/local/icmp_packet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/receiver/local/icmp_packet_receiver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/receiver/local/icmp_packet_receiver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/receiver/local/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/send/externo/icmp_packet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/send/externo/icmp_packet.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/send/externo/icmp_packet.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/send/externo/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/send/local/icmp_packet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/send/local/icmp_packet.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/send/local/icmp_packet.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pacote-icmp/src/send/local/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../unit-testing-gtest/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ping Socket/client.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Ping Socket/client.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pacote-icmp/src/receiver/local/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pacote-icmp/src/receiver/local/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pacote-icmp/src/send/local/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pacote-icmp/src/send/local/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +78,7 @@
       <workItem from="1682512677079" duration="4704000" />
       <workItem from="1686325205872" duration="15000" />
       <workItem from="1686927256909" duration="47000" />
-      <workItem from="1686927351370" duration="119000" />
+      <workItem from="1686927351370" duration="610000" />
     </task>
     <servers />
   </component>
